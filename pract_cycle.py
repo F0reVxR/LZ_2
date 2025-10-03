@@ -1,4 +1,3 @@
-hello_world = 'print()'
 Sum = 0
 Numb = (input('Введите целые числа ')).split()
 for i in range(0,len(Numb)):
@@ -27,4 +26,4 @@ match(int(input('Введите операцию (0 / 1 / 2 / 3) - '))):
     case _:
         for i in range(0,len(Numb)):
             Sum += Numb[i]
-        print(Sum)
+        print('Сумма числецов в твой списка: ', Sum)
