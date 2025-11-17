@@ -15,3 +15,6 @@ for i in range(1,3):
 
 df = pd.DataFrame(r.values(), index=r.keys())
 print(df)
+
+df.to_csv('D:/1.csv', encoding = 'utf-8')
+df1
